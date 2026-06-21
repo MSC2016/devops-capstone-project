@@ -113,7 +113,6 @@ def update_accounts(account_id):
     return account.serialize(), status.HTTP_200_OK
 
 
-
 ######################################################################
 # DELETE AN ACCOUNT
 ######################################################################
@@ -130,7 +129,6 @@ def delete_accounts(account_id):
         account.delete()
 
     return "", status.HTTP_204_NO_CONTENT
-
 
 
 ######################################################################
